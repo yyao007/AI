@@ -1,0 +1,27 @@
+Running on file cs_205_small56.txt getting the result:
+
+Forward Selection:
+Finished search! The best feature subset is [8, 5, 3] , which has an accuracy of 96.0%
+Time cost: 10.123500s
+
+Backward Elimination:
+Finished search! The best feature subset is [5, 8] , which has an accuracy of 95.0%
+Time cost: 23.409359s
+
+My original search algorithm:
+Finished search! The best feature subset is [5, 8, 3] , which has an accuracy of 96.0%
+Time cost: 16.451771s
+
+
+Running on file cs_205_large56.txt getting the result:
+Forward Selection:
+Finished search! The best feature subset is [72, 48] , which has an accuracy of 96.0%
+Time cost: 90.888684s
+
+Backward Elimination:
+Finished search! The best feature subset is [7, 34, 48, 59, 60, 61, 63, 66, 67, 81, 82, 85, 91, 93, 97, 99, 100] , which has an accuracy of 91.0%
+Time cost: 1976.174461s
+
+My original search algorithm:
+Finished search! The best feature subset is [48, 72] , which has an accuracy of 96.0%
+Time cost: 805.740074s
